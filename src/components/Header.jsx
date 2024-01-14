@@ -1,7 +1,7 @@
 export default function Header() {
   return (
-    <div className="flex">
-      <div className="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2">
+    <div className="flex bg-gray-100">
+      <div className="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
         <img className="h-10" src="logo.svg" alt="workcation" />
         <img
           className="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden"
@@ -9,7 +9,7 @@ export default function Header() {
           alt="woman workcationing on the beach"
         />
 
-        <h1 className="mt-6 text-2xl max-w-[25ch] font-bold text-gray-900 leading-tight sm:mt-8 sm:text-4xl">
+        <h1 className="mt-6 text-2xl font-bold text-gray-900 leading-tight sm:mt-8 sm:text-4xl lg:text-3xl">
           You can work from anywhere.{" "}
           <span className="text-indigo-500">Take advantage of it.</span>
         </h1>
@@ -29,9 +29,9 @@ export default function Header() {
           </a>
         </div>
       </div>
-      <div className="hidden lg:block lg-w-1/2 lg:relative">
+      <div className="hidden lg:block lg:w-1/2 lg:relative">
         <img
-          className="h-full w-full"
+          className="absolute inset-0 w-full h-full object-cover object-center"
           src="beach-work.jpg"
           alt="woman workcationing on the beach"
         />
