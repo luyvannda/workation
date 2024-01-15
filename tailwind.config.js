@@ -5,6 +5,9 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  variants: {
+    backgroundColor: ['responsive', 'hover', 'focus', 'active']
+  },
+  plugins: []
 }
 
