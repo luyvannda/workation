@@ -22,11 +22,12 @@ export default function Header() {
           </p>
 
           <div className="mt-4 sm:mt-6">
-            <a
-              href="#"
-              className="inline-block bg-indigo-500 hover:bg-indigo-400 active:bg-indigo-600 focus:outline-none focus:shadow-outline px-3 py-2 rounded-lg text-sm text-white uppercase tracking-wider font-semibold shadow-lg sm:text-base"
-            >
+            <a href="#" className="btn btn-indigo shadow-lg sm:text-base">
               Book your escape
+            </a>
+
+            <a href="#" className="ml-2 btn-gray btn shadow-lg sm:text-base">
+              learn more
             </a>
           </div>
         </div>
