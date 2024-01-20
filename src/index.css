@@ -10,7 +10,7 @@
 }
 
 .btn-indigo {
-@apply bg-indigo-500 text-white;
+  @apply bg-indigo-500 text-white;
 }
 
 .btn-indigo:hover {
@@ -34,7 +34,3 @@
 }
 
 @tailwind utilities;
-
-
-
-
