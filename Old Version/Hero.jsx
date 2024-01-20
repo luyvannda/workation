@@ -1,4 +1,4 @@
-export default function Header() {
+export default function Hero() {
   return (
     <div className="flex bg-gray-100">
       <div className="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
