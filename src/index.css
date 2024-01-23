@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,7 +10,7 @@
   }
 
   .btn-primary {
-    @apply bg-indigo-500 hover:bg-indigo-400 focus:ring-indigo-500 active:bg-indigo-600
+    @apply bg-brand hover:bg-brand-light focus:bg-brand active:bg-brand-dark
     text-white;
   }
 
